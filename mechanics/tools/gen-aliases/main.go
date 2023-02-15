@@ -86,6 +86,7 @@ func expandTeams(seed map[string]peribolos.Team) []expandedTeam {
 		}
 		retval = append(retval, this)
 		retval = append(retval, children...)
+		log.Print("Testing")
 	}
 
 	return retval
